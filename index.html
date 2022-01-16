@@ -6,22 +6,27 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
-    <title>Pricing example · Bootstrap v5.1</title>
+    <title>Cheap Web Design · Phelan Bros</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/pricing/">
 
-    
+
 
     <!-- Bootstrap core CSS -->
-<link href="/docs/5.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<!--<link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
 
     <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="assets/img/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/img/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="assets/img/manifest.json">
+<link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/assets/img/favicon.ico">
 <meta name="theme-color" content="#7952b3">
 
 
@@ -41,12 +46,14 @@
       }
     </style>
 
-    
+
     <!-- Custom styles for this template -->
-    <link href="pricing.css" rel="stylesheet">
+    <link href="css/pricing.css" rel="stylesheet">
+
+    <!--<link href="pricing.css" rel="stylesheet">-->
   </head>
   <body>
-    
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="check" viewBox="0 0 16 16">
     <title>Check</title>
@@ -54,54 +61,159 @@
   </symbol>
 </svg>
 
-<div class="container py-3">
-  <header>
-    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-        <span class="fs-4">Pricing example</span>
-      </a>
 
-      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Features</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
-        <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
-        <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a>
-      </nav>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="pound" viewBox="0 0 16 16">
+  width="16" height="16" fill="currentColor" class="bi bi-currency-pound" viewBox="0 0 16 16">
+  <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
+  </symbol>
+</svg>
+
+<header>
+
+  <!-- Navbar -->
+  <!-- Nav logo -->
+      <div class="navbar d-flex flex-column flex-md-row navbar-expand-lg navbar-light bg-white align-items-center px-3 pb-3">
+        <a href="../ldndesign/index.html" class="d-flex align-items-center text-dark text-decoration-none ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+          <span class="fs-4">Web Design</span>
+        </a>
+  <!-- Nav-->
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#Single-Page">Portfolio</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#Multi-Page">Packages</a>
+          <a class="me-3 py-2 text-dark text-decoration-none" href="#Blog">Pricing</a>
+          <a class="py-2 text-dark text-decoration-none" href="#Pricing">Contact</a>
+        </nav>
+      </div>
+  <!-- Navbar -->
+
+  <!-- Background image -->
+  <div
+    id="intro-example"
+    class="p-5 text-center intro-example">
+    <div class="mask col-lg-8 offset-lg-1 p-0 rounded-3 border shadow-lg my-auto mx-auto" style="background-color: rgba(0, 0, 0, 0.7);">
+      <div class="d-flex justify-content-center align-items-center h-100 col-md-12 p-lg-5 mx-auto">
+        <div class="text-white display-4 fw-bold lh-1 p-3">
+          <h1 class="mb-3 display-4 fw-bold">Need a professional website?</h1>
+          <h5 class="mb-4 lead">
+            Take your business online today with our competitve packages!
+          </h5>
+          <a
+            class="btn btn-light btn-lg m-2"
+            href="#"
+            role="button"
+            rel="nofollow"
+            target="_blank"
+            >Contact Us</a
+          >
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="#"
+            target="_blank"
+            role="button"
+            >Packages</a
+          >
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- Background image -->
+</header>
 
+
+
+<div class="my-5 px-5">
+  <div class="row gx-5 justify-content-center">
+      <div class="col-lg-8">
+          <div class="text-center mb-10">
+              <h2  class="mb-3 display-4 fw-bold">Landing Pages</h2>
+              <p class="lead">After purchasing SB UI Kit Pro, you will gain access to these professionally coded, pre-built landing page templates!</p>
+          </div>
+      </div>
+  </div>
+  <div class="row gx-5 text-center">
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 1 - Multipurpose</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-multipurpose.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-multipurpose.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 2 - Mobile App</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-app-mobile.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-app-mobile.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 3 - Desktop App</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-app-desktop.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-app-desktop.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 4 - Agency</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-agency.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-agency.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 5 - Lead Capture</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-lead-capture.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-lead-capture.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 6 - Press</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-press.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-press.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 7 - Directory</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-directory.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-directory.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 8 - Rental</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-rental.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-rental.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 9 - Real Estate</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-real-estate.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-real-estate.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 10 - Classifieds</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-classifieds.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-classifieds.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 11 - Resume</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-resume.html"><img class="img-fluid rounded-3" src="https://assets.startbootstrap.com/img/screenshots-product-pages/sb-ui-kit-pro/landing-resume.png"></a>
+      </div>
+      <div class="col-lg-4 mb-5">
+          <h6 class="mb-3">Demo 12 - Portfolio</h6>
+          <a class="d-block rounded-3 lift lift-lg" href="landing-portfolio.html"><img class="img-fluid rounded-3" src="https://via.placeholder.com/1344x896?text=Visit+Blogging.com+Now"></a>
+      </div>
+  </div>
+</div>
+
+  <main class="container">
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-      <h1 class="display-4 fw-normal">Pricing</h1>
+      <h1 class="display-4 fw-normal" id="Pricing">Pricing</h1>
       <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
     </div>
-  </header>
-
-  <main>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Free</h4>
+            <h4 class="my-0 fw-normal">Single Page</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">£180</h1>
             <ul class="list-unstyled mt-3 mb-4">
-              <li>10 users included</li>
-              <li>2 GB of storage</li>
-              <li>Email support</li>
-              <li>Help center access</li>
+              <li>Website Design</li>
+              <li>One Year Hosting</li>
+              <li>1GB of Storage</li>
+              <li>Help Center Access</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Quote</button>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm">
           <div class="card-header py-3">
-            <h4 class="my-0 fw-normal">Pro</h4>
+            <h4 class="my-0 fw-normal">Multi Page</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">£210</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>20 users included</li>
               <li>10 GB of storage</li>
@@ -115,10 +227,10 @@
       <div class="col">
         <div class="card mb-4 rounded-3 shadow-sm border-primary">
           <div class="card-header py-3 text-white bg-primary border-primary">
-            <h4 class="my-0 fw-normal">Enterprise</h4>
+            <h4 class="my-0 fw-normal">Blog</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+            <h1 class="card-title pricing-card-title">£310</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>30 users included</li>
               <li>15 GB of storage</li>
@@ -138,21 +250,21 @@
         <thead>
           <tr>
             <th style="width: 34%;"></th>
-            <th style="width: 22%;">Free</th>
-            <th style="width: 22%;">Pro</th>
-            <th style="width: 22%;">Enterprise</th>
+            <th style="width: 22%;">Single Page</th>
+            <th style="width: 22%;">Multi Page</th>
+            <th style="width: 22%;">Blog</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Public</th>
+            <th scope="row" class="text-start">Design</th>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Private</th>
-            <td></td>
+            <th scope="row" class="text-start">Hosting</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
           </tr>
@@ -160,13 +272,19 @@
 
         <tbody>
           <tr>
-            <th scope="row" class="text-start">Permissions</th>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
-            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <th scope="row" class="text-start">Storage</th>
+            <td>1GB</td>
+            <td>2GB</td>
+            <td>5GB</td>
           </tr>
           <tr>
-            <th scope="row" class="text-start">Sharing</th>
+            <th scope="row" class="text-start">Email</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#pound"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#pound"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#pound"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Multi Page</th>
             <td></td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
             <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
@@ -188,10 +306,10 @@
     </div>
   </main>
 
-  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <footer class="mx-3 pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">
-        <img class="mb-2" src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+        <img class="mb-2" src="assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
         <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
       </div>
       <div class="col-6 col-md">
@@ -201,8 +319,6 @@
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
-          <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
         </ul>
       </div>
       <div class="col-6 col-md">
@@ -225,9 +341,25 @@
       </div>
     </div>
   </footer>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© 2021 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/facebook.svg" alt="Facebook" width="24" height="24"></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/twitter.svg" alt="Twitter" width="24" height="24"></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/instagram.svg" alt="Instagram" width="24" height="24"></a></li>
+    </ul>
+  </footer>
 </div>
 
 
-    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   </body>
 </html>

@@ -5,7 +5,33 @@ body {
 .container {
   max-width: 960px;
 }
-
+.container2 {
+  max-width: 90%;
+  padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
 .pricing-header {
   max-width: 700px;
+}
+.bg-image {
+  background-image: url('../assets/img/computer.jpg');
+  height: 400px;
+
+}
+.intro-example{
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d3fd27ff-a27e-49c2-a526-5951765664d7/d6oi4p-0349278d-7473-407a-8aa6-bc472a04b04e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2QzZmQyN2ZmLWEyN2UtNDljMi1hNTI2LTU5NTE3NjU2NjRkN1wvZDZvaTRwLTAzNDkyNzhkLTc0NzMtNDA3YS04YWE2LWJjNDcyYTA0YjA0ZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.0WfcHuuzwcrQ6JXtIURTF_JKH5RcOy-9Rv35-9X2gdQ');
+
+}
+/* Default height for small devices */
+#intro-example {
+  height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
 }

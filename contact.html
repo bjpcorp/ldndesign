@@ -72,84 +72,103 @@
 <header>
 
   <!-- Navbar -->
-  <!-- Nav logo -->
-      <div class="navbar d-flex flex-column flex-md-row navbar-expand-lg navbar-light bg-white align-items-center px-3 pb-3">
-        <a href="../ldndesign/index.html" class="d-flex align-items-center text-dark text-decoration-none ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-          <span class="fs-4">Web Design</span>
+  <nav>
+
+  <div class="navbar navbar-expand-lg bg-white navbar-light">
+
+    <div class="container-fluid">
+
+      <!--BRAND -->
+        <a href="../ldndesign/index.html" class="navbar-brand">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
+          <span>Web Design</span>
         </a>
-  <!-- Nav-->
-        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-          <a class="me-3 py-2 text-dark text-decoration-none" href="../ldndesign/index.html#Portfolio">Portfolio</a>
-          <a class="me-3 py-2 text-dark text-decoration-none" href="../ldndesign/index.html#Packages">Packages</a>
-          <a class="me-3 py-2 text-dark text-decoration-none" href="../ldndesign/index.html#Pricing">Pricing</a>
-          <a class="py-2 text-dark text-decoration-none" href="#Pricing">Contact</a>
-        </nav>
-      </div>
-  <!-- Navbar -->
-  </header>
 
-<main >
-<div class="container">
-  <h1 class="display-4 fw-normal">Contact Form</h1>
-  <form id="contact-form">
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="name">Name *</label>
-        <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Last" required>
-      </div>
-      <div class="form-group col-md-6">
-        <label for="email">Email *</label>
-        <input type="email" name="email" class="form-control" id="email" placeholder="e.g. something@somewhere.com" required>
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="company_name">Company name</label>
-        <input type="text" name="company_name" class="form-control" id="company_name" placeholder="e.g. Acme Enterprises">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="service">Select service *</label>
-        <select class="custom-select" name="service" id="service" aria-describedby="service_help" required>
-                                        <option value="" disabled selected>&#45; please select &#45;</option>
-                                        <option value="web design">Website Design</option>
-                                        <option value="support">Support Services</option>
-                                        <option value="other">Other</option>
-                                    </select>
-        <small id="service_help" class="form-text text-muted">
-                                        If the service you require is not listed please select "Other" and provide any relevent information in the "Comments" field.
-                                    </small>
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group col">
-        <label for="comments">Comments</label>
-        <textarea class="form-control bg-white" name="comments" id="comments" rows="3"></textarea>
-      </div>
-    </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbarMd" aria-controls="collapsingNavbarMd" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <!-- NAV-->
+        <div class="navbar-collapse collapse justify-content-end" data-toggle="collapse" data-target=".nav-collapse" id="collapsingNavbarMd">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./index.html#Portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./index.html#Pricing">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="./index.html#Packages">Packages</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
 
-    <div class="form-row">
-      <div class="form-group col">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="privacyStatement">
-          <label class="custom-control-label" for="privacyStatement">I have read and understood the privacy statement</label>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+<main>
+  <div class="container mb-5">
+    <h1 class="display-4 fw-normal my-4">Contact Us</h1>
+
+    <form id="contact-form" class="rounded-3 border shadow-lg p-5">
+      <div class="form-row row">
+        <div class="form-group col-md-6 mb-3">
+          <label for="name">Name *</label>
+          <input type="text" name="first_name" class="form-control" id="first_name" placeholder="First Last" required>
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="email">Email *</label>
+          <input type="email" name="email" class="form-control" id="email" placeholder="e.g. something@somewhere.com" required>
         </div>
       </div>
-    </div>
+      <div class="form-row row">
+        <div class="form-group col-md-6 mb-3">
+          <label for="company_name">Company name</label>
+          <input type="text" name="company_name" class="form-control" id="company_name" placeholder="e.g. Acme Enterprises">
+        </div>
+        <div class="form-group col-md-6 mb-3">
+          <label for="service">Select service *</label>
+          <select class="custom-select" name="service" id="service" aria-describedby="service_help" required>
+            <option value="" disabled selected>&#45; Please Select &#45;</option>
+            <option value="web design">Website Design</option>
+            <option value="support">Support Services</option>
+            <option value="other">Other</option>
+          </select>
+          </br>
+          <small id="service_help" class="form-text text-muted">
+          If the service you require is not listed please select "Other" and provide any relevent information in the "Comments" field.
+          </small>
+        </div>
 
-    <button type="submit" class="btn btn-success">Submit</button>
+      </div>
+      <div class="form-row mb-3">
+        <div class="form-group mb-3">
+          <label for="comments">Comments</label>
+          <textarea class="form-control bg-white" name="comments" id="comments" rows="3"></textarea>
+        </div>
+      </div>
 
-  </form>
-</div>
+      <div class="form-row mb-3">
+        <div class="form-group mb-3">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="privacyStatement">
+            <label class="custom-control-label" for="privacyStatement">I have read and understood the privacy statement</label>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-success mb-5">Submit</button>
+
+    </form>
+  </div>
 </main>
 
-  <footer class="mx-3 pt-4 my-md-5 pt-md-5 border-top">
-    <div class="row">
-      <div class="col-12 col-md">
-        <img class="mb-2" src="assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
+<!-- Footer -->
+  <footer class="container-fluid border-top">
+    <div class="row p-2">
+      <div class="col-sm-12 col-md-3">
+        <img class="mb-2" src="assets/brand/bootstrap-logo.svg" alt="" width="34" height="29">
         <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-sm-12 col-md-3">
         <h5>Features</h5>
         <ul class="list-unstyled text-small">
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
@@ -158,7 +177,7 @@
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-sm-12 col-md-3">
         <h5>Resources</h5>
         <ul class="list-unstyled text-small">
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
@@ -167,7 +186,7 @@
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
         </ul>
       </div>
-      <div class="col-6 col-md">
+      <div class="col-sm-12 col-md-3">
         <h5>About</h5>
         <ul class="list-unstyled text-small">
           <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
@@ -178,24 +197,39 @@
       </div>
     </div>
   </footer>
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-      </a>
-      <span class="text-muted">© 2021 Company, Inc</span>
+  <footer class="container-fluid border-top">
+    <div class="row p-2">
+      <div class="col-md-6 col-sm-12 align-items-center">
+        <a href="/" class="text-decoration-none">
+          <img src="assets/brand/bootstrap-logo.svg" alt="Web Design Logo" width="34" height="29">
+        </a>
+        <span class="text-muted">© 2022 BP Web Design</span>
+      </div>
+
+      <ul class="nav col-md-6 col-sm-12 justify-content-end">
+        <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/facebook.svg" alt="Facebook" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/twitter.svg" alt="Twitter" width="24" height="24"></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/instagram.svg" alt="Instagram" width="24" height="24"></a></li>
+      </ul>
     </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/facebook.svg" alt="Facebook" width="24" height="24"></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/twitter.svg" alt="Twitter" width="24" height="24"></a></li>
-      <li class="ms-3"><a class="text-muted" href="#"><img src="assets/img/instagram.svg" alt="Instagram" width="24" height="24"></a></li>
-    </ul>
   </footer>
+</div>
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!--jQuey CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"></script>
+
+<!--COLLAPSE NAV -->
+    <script type="text/javascript">
+    $('.nav-link').on('click',function() {
+      $('.navbar-collapse').collapse('hide');
+    });
+    </script>
 
   </body>
 </html>
